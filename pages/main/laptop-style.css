@@ -1,0 +1,68 @@
+@media (max-width: 768px) {
+  body {
+    min-width: 768px;
+  }
+  .wrapper {
+    max-width: 708px;
+    width: 100%;
+    margin: 30px 30px 0 30px;
+  }
+  .start-screen__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-height: none;
+    gap: 100px;
+  }
+  .header__container {
+    margin-bottom: 30px;
+  }
+  .article__container {
+    width: 460px;
+    height: 322px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .start-screen-h2 {
+    margin: 0;
+  }
+  .start-section {
+    max-height: none;
+  }
+  .start-screen-img {
+    width: 569px;
+    height: 593px;
+  }
+  .btn {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .start-screen-img {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+  .about-section {
+    margin: 80px 166px 100px 165px;
+    width: 437px;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    gap: 80px;
+  }
+}
+/*# sourceMappingURL=laptop-style.css.map */
