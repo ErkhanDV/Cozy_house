@@ -138,6 +138,7 @@ h1 {
 .btn {
   font: 400 17px Georgia;
   color: #292929;
+  background: none;
   letter-spacing: 0.06em;
   line-height: 1.3em;
   padding: 13px 43px;
@@ -201,6 +202,7 @@ h1 {
   margin: 0;
   font: 400 35px 'Georgia';
   letter-spacing: 0.06em;
+  line-height: 1.3em;
   color: #545454;
 }
 
@@ -239,6 +241,13 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 53px;
+}
+
+.our-friends-cards__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   gap: 90px;
 }
 
@@ -270,8 +279,8 @@ h1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  gap: 25px;
   margin: 0;
-  gap: 30px;
 }
 
 .our-friends-img {
@@ -283,17 +292,38 @@ h1 {
   font: 400 20px 'Georgia';
   letter-spacing: 0.06em;
   color: #545454;
+  line-height: 1.3em;
 }
 
 .card_btn {
-  background: #FAFAFA;
   margin-bottom: 30px;
 }
 
-.card_btn:hover {
+.card_btn:hover, .arrow_btn:hover {
   -webkit-transition: background 0.6s ease 0s;
   transition: background 0.6s ease 0s;
   cursor: pointer;
   background: #F1CDB3;
+}
+
+.arrow_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 52px;
+  height: 52px;
+  padding: 0;
+  text-align: center;
+}
+
+.arrow-right {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 /*# sourceMappingURL=style.css.map */
