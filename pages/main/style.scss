@@ -15,6 +15,7 @@ body {
 .wrapper {
   max-width: 1200px;
   width: 100%;
+  margin: 0 auto;
 }
 a {
   text-decoration: none;
@@ -191,7 +192,7 @@ h1 {
   transform: scale(1.02);
   box-shadow: 3px 2px #F1CDB3;
 }
-.our-friends-img__container {
+.our-friends-img__container, .help-items__content {
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -201,7 +202,7 @@ h1 {
   width: 270px;
   height: 270px;
 }
-.our-friends-img__figcaption {
+.our-friends-img__figcaption, .help-items__figcaption {
   font: 400 20px 'Georgia';
   letter-spacing: 0.06em;
   color: #545454;
@@ -226,4 +227,21 @@ h1 {
 
 .arrow-right {
   transform: rotate(180deg);
+}
+.help-section__container {
+  text-align: center;
+}
+.help-items__content {
+  align-items: center;
+}
+.help-items__container {
+  margin: 0 87px 0 87px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.help-items-img {
+  width: 60px;
+  height: 60px;
 }
