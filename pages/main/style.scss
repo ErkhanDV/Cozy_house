@@ -167,11 +167,13 @@ h1 {
 .our-friends-cards__container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   gap: 53px;
 }
 .our-friends-cards__content {
   display: flex;
+  flex-wrap: wrap;
   gap: 90px;
 }
 .our-friends-card__content {
@@ -187,7 +189,7 @@ h1 {
 .our-friends-card__content:hover {
   @include elem-hover($property: transform);
   transform: scale(1.02);
-  box-shadow: 5px 2px 2px #F1CDB3;
+  box-shadow: 3px 2px #F1CDB3;
 }
 .our-friends-img__container {
   display: flex;
