@@ -63,4 +63,13 @@
     .our-friends-cards__container {
       gap: 12px;
     }
+    .help-items__container {
+      margin-left: 69px;
+      margin-right: 69px;
+      column-gap: 60px;
+      justify-content: space-around;
+    }
+    .help-items__content {
+      flex-basis: 25%;
+    }
   }

@@ -195,7 +195,7 @@ h1 {
 .our-friends-img__container, .help-items__content {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 30px;
   margin: 0;
 }
 .our-friends-img {  
@@ -204,9 +204,10 @@ h1 {
 }
 .our-friends-img__figcaption, .help-items__figcaption {
   font: 400 20px 'Georgia';
-  letter-spacing: 0.06em;
+  letter-spacing: 0.056em;
   color: #545454;
-  line-height: 1.3em;
+  line-height: 23px;
+  white-space: nowrap;
 }
 .card_btn {
   margin-bottom: 30px;
@@ -230,18 +231,23 @@ h1 {
 }
 .help-section__container {
   text-align: center;
+  padding: 80px 0 100px 0;
 }
 .help-items__content {
   align-items: center;
+  justify-content: space-between;
 }
 .help-items__container {
-  margin: 0 87px 0 87px;
+  margin: 60px 87px 0 87px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  column-gap: 120px;
+  row-gap: 55px;
 }
 .help-items-img {
   width: 60px;
   height: 60px;
 }
+
