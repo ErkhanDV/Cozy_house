@@ -82,16 +82,14 @@
     gap: 12px;
   }
   .help-items__container {
-    margin-left: 69px;
-    margin-right: 69px;
+    margin-left: 39px;
+    margin-right: 39px;
     -webkit-column-gap: 60px;
             column-gap: 60px;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
   }
   .help-items__content {
-    -ms-flex-preferred-size: 25%;
-        flex-basis: 25%;
+    width: 170px;
+    height: 113px;
   }
 }
 /*# sourceMappingURL=laptop-style.css.map */
