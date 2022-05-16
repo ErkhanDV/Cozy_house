@@ -24,6 +24,10 @@ li {
   list-style: none;
 }
 
+p {
+  margin: 0;
+}
+
 h1 {
   margin: 0 0 10px 0;
   font: 400 32px Georgia;
@@ -305,7 +309,7 @@ h1 {
   height: 270px;
 }
 
-.our-friends-img__figcaption, .help-items__figcaption {
+.our-friends-img__figcaption, .help-items__figcaption, .credit-card-number {
   font: 400 20px 'Georgia';
   letter-spacing: 0.056em;
   color: #545454;
@@ -380,5 +384,69 @@ h1 {
 .help-items-img {
   width: 60px;
   height: 60px;
+}
+
+.donation-content__container {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  background-color: #F6F6F6;
+}
+
+.donation__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.donation__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  max-width: 380px;
+}
+
+.donation-paragraph {
+  font: 400 15px 'Georgia';
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.donation__bank-card {
+  max-width: 319px;
+  max-height: 43px;
+  padding: 10px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 9px;
+}
+
+.donation-paragraph-small {
+  font: italic 400 12px 'Arial';
+  line-height: 150%;
+  color: #B2B2B2;
+}
+
+.donation_dog {
+  width: 505px;
+  height: 261px;
 }
 /*# sourceMappingURL=style.css.map */
