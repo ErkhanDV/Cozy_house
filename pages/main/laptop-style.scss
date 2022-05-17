@@ -72,4 +72,9 @@
       width: 170px;
       height: 113px;
     }
+    .donation__container {
+      // padding: 80px 132px 80px 131px;
+      flex-wrap: wrap-reverse;
+      gap: 60px;
+    }
   }

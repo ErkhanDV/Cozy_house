@@ -402,6 +402,7 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  gap: 30px;
 }
 
 .donation__content {
@@ -446,6 +447,7 @@ h1 {
 }
 
 .donation_dog {
+  margin: 0;
   width: 505px;
   height: 261px;
 }

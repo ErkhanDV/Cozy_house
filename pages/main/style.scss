@@ -215,7 +215,7 @@ h1 {
 .card_btn {
   margin-bottom: 30px;
 }
-.card_btn:hover, .arrow_btn:hover, {
+.card_btn:hover, .arrow_btn:hover {
   @include elem-hover($property: background);
   background: #F1CDB3;
 }
@@ -262,6 +262,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 30px;
 }
 .donation__content {
   display: flex;
@@ -290,7 +291,7 @@ h1 {
   color: #B2B2B2;
 }
 .donation_dog {
+  margin: 0;
   width: 505px;
   height: 261px;
 }
-

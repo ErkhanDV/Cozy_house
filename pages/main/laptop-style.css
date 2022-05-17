@@ -91,5 +91,10 @@
     width: 170px;
     height: 113px;
   }
+  .donation__container {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    gap: 60px;
+  }
 }
 /*# sourceMappingURL=laptop-style.css.map */
