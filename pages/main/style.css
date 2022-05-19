@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -309,7 +313,7 @@ h1 {
   height: 270px;
 }
 
-.our-friends-img__figcaption, .help-items__figcaption, .credit-card-number {
+.our-friends-img__figcaption, .help-items__figcaption, .credit-card-number, .footer-content-figcaption {
   font: 400 20px 'Georgia';
   letter-spacing: 0.056em;
   color: #545454;
@@ -450,5 +454,55 @@ h1 {
   margin: 0;
   width: 505px;
   height: 261px;
+}
+
+.contacts-content__container {
+  background-image: radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%);
+}
+
+.contacts__container {
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mail__container, .phone__container, .boston__container, .london__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.contacts-content__container h3 {
+  color: #FFFFFF;
+}
+
+.questions__content, .adresses__content {
+  padding-top: 16px;
+  max-height: 234px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-content-figcaption {
+  color: #F1CDB3;
 }
 /*# sourceMappingURL=style.css.map */

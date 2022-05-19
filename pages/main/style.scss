@@ -3,6 +3,9 @@
   transition: $property 0.6s ease 0s;
   cursor: pointer;
 }
+* {
+  margin: 0;
+}
 html {
   scroll-behavior: smooth;
   }
@@ -205,7 +208,7 @@ h1 {
   width: 270px;
   height: 270px;
 }
-.our-friends-img__figcaption, .help-items__figcaption, .credit-card-number {
+.our-friends-img__figcaption, .help-items__figcaption, .credit-card-number, .footer-content-figcaption {
   font: 400 20px 'Georgia';
   letter-spacing: 0.056em;
   color: #545454;
@@ -295,3 +298,31 @@ h1 {
   width: 505px;
   height: 261px;
 }
+.contacts-content__container {
+  background-image: radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%);
+}
+.contacts__container {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.mail__container, .phone__container, .boston__container, .london__container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.contacts-content__container h3 {
+  color: #FFFFFF;
+}
+.questions__content, .adresses__content {
+  padding-top: 16px;
+  max-height: 234px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer-content-figcaption {
+  color: #F1CDB3;
+}
+
