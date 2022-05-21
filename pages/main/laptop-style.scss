@@ -54,11 +54,13 @@
     .friends__container {
       margin: 0;
     }
-    .display_hidden {
-      display: none;
-    }
     .our-friends-cards__content {
+      max-height: 435px;
+      max-width: 580px;
+      flex-wrap: wrap;
       gap: 40px;
+      overflow: hidden;
+      justify-content: space-between;
     }
     .our-friends-cards__container {
       gap: 12px;
@@ -73,8 +75,15 @@
       height: 113px;
     }
     .donation__container {
-      // padding: 80px 132px 80px 131px;
       flex-wrap: wrap-reverse;
       gap: 60px;
+    }
+    .contacts__container {
+      justify-content: center;
+      column-gap: 60px;
+      row-gap: 65px;
+    }
+    .questions__content, .adresses__content{
+      padding-top: 0;
     }
   }

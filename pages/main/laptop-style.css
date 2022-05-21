@@ -72,11 +72,16 @@
   .friends__container {
     margin: 0;
   }
-  .display_hidden {
-    display: none;
-  }
   .our-friends-cards__content {
+    max-height: 435px;
+    max-width: 580px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     gap: 40px;
+    overflow: hidden;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .our-friends-cards__container {
     gap: 12px;
@@ -95,6 +100,17 @@
     -ms-flex-wrap: wrap-reverse;
         flex-wrap: wrap-reverse;
     gap: 60px;
+  }
+  .contacts__container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-column-gap: 60px;
+            column-gap: 60px;
+    row-gap: 65px;
+  }
+  .questions__content, .adresses__content {
+    padding-top: 0;
   }
 }
 /*# sourceMappingURL=laptop-style.css.map */

@@ -247,8 +247,6 @@ h1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -259,8 +257,6 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   gap: 90px;
 }
 
@@ -465,6 +461,8 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -486,7 +484,7 @@ h1 {
 
 .questions__content, .adresses__content {
   padding-top: 16px;
-  max-height: 234px;
+  height: 234px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -504,5 +502,17 @@ h1 {
 
 .footer-content-figcaption {
   color: #F1CDB3;
+}
+
+.mail__container:hover .footer-content-figcaption, .phone__container:hover .footer-content-figcaption, .boston__container:hover .footer-content-figcaption, .london__container:hover .footer-content-figcaption {
+  -webkit-transition: color 0.6s ease 0s;
+  transition: color 0.6s ease 0s;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.footer-img {
+  width: 300px;
+  height: 310px;
 }
 /*# sourceMappingURL=style.css.map */

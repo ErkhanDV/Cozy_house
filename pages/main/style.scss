@@ -174,13 +174,11 @@ h1 {
 .our-friends-cards__container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
   gap: 53px;
 }
 .our-friends-cards__content {
   display: flex;
-  flex-wrap: wrap;
   gap: 90px;
 }
 .our-friends-card__content {
@@ -304,6 +302,7 @@ h1 {
 .contacts__container {
   padding-top: 40px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .mail__container, .phone__container, .boston__container, .london__container {
@@ -316,7 +315,7 @@ h1 {
 }
 .questions__content, .adresses__content {
   padding-top: 16px;
-  max-height: 234px;
+  height: 234px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -324,5 +323,15 @@ h1 {
 }
 .footer-content-figcaption {
   color: #F1CDB3;
+}
+.mail__container:hover, .phone__container:hover, .boston__container:hover, .london__container:hover {
+  .footer-content-figcaption {
+    @include elem-hover($property: color);
+    color: #FFFFFF;
+  }
+}
+.footer-img {
+  width: 300px;
+  height: 310px;
 }
 
